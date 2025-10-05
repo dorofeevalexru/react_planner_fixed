@@ -1,0 +1,1699 @@
+{
+    "auth": {
+        "login": "webmap",
+        "password": "webmap"
+    },
+    "name": "SEG_2020_Full",
+    "nodes": [
+        {
+            "layers": null,
+            "name": "OGP",
+            "nodes": [
+                {
+                    "layers": "SEG_2020_Full:1_Zoni_bolot",
+                    "name": "1 Zoni bolot",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/1_Zoni_bolot.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:2_Zoni_erozionnih_processov_na_territoriyah__pokritih_bolotami",
+                    "name": "2 Zoni erozionnih processov na territoriyah, pokritih bolotami",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/2_Zoni_erozionnih_processov_na_territoriyah__pokritih_bolotami.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:3_Zoni_razvitiya_geodinamicheskih_i_svyazannih_s_nimi_gravitaci",
+                    "name": "3 Zoni razvitiya geodinamicheskih i svyazannih s nimi gravitaci",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/3_Zoni_razvitiya_geodinamicheskih_i_svyazannih_s_nimi_gravitaci.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:4_Zoni_geodinamicheskih_i_svyazannih_s_nimi_erozionnih_processo",
+                    "name": "4 Zoni geodinamicheskih i svyazannih s nimi erozionnih processo",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/4_Zoni_geodinamicheskih_i_svyazannih_s_nimi_erozionnih_processo.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:5_Zoni_kompleksnoj__antropogennoj_i_prirodnoj__opasnosti",
+                    "name": "5 Zoni kompleksnoj (antropogennoj i prirodnoj) opasnosti",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/5_Zoni_kompleksnoj__antropogennoj_i_prirodnoj__opasnosti.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:7_Zoni_vozmozhnoj_prosadki_gruntov_pod_vozdejstviem_ryada_prich",
+                    "name": "7 Zoni vozmozhnoj prosadki gruntov pod vozdejstviem ryada prich",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/7_Zoni_vozmozhnoj_prosadki_gruntov_pod_vozdejstviem_ryada_prich.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:9_Predpolagaemie_razlomi__aktivirovannie_v_nastoyaschee_vremya",
+                    "name": "9 Predpolagaemie razlomi, aktivirovannie v nastoyaschee vremya",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/9_Predpolagaemie_razlomi__aktivirovannie_v_nastoyaschee_vremya.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:10_Repernie_tochki_kontrolya_sostoyaniya_beregovoj_zoni",
+                    "name": "10 Repernie tochki kontrolya sostoyaniya beregovoj zoni",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/10_Repernie_tochki_kontrolya_sostoyaniya_beregovoj_zoni.sld",
+                    "type": "point",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:11_Repernie_tochki_kontrolya_zaileniya",
+                    "name": "11 Repernie tochki kontrolya zaileniya",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/11_Repernie_tochki_kontrolya_zaileniya.sld",
+                    "type": "point",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:13_Repernie_tochki_v_zone_vozmozhnogo_tektonicheskogo_razloma",
+                    "name": "13 Repernie tochki v zone vozmozhnogo tektonicheskogo razloma",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/13_Repernie_tochki_v_zone_vozmozhnogo_tektonicheskogo_razloma.sld",
+                    "type": "point",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:14_Repernie_tochki_na_sklonah",
+                    "name": "14 Repernie tochki na sklonah",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/14_Repernie_tochki_na_sklonah.sld",
+                    "type": "point",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:15_Torforazrabotki",
+                    "name": "15 Torforazrabotki",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/15_Torforazrabotki.sld",
+                    "type": "point",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:16_Peresechenie_s_linejnimi_objektami",
+                    "name": "16 Peresechenie s linejnimi objektami",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/16_Peresechenie_s_linejnimi_objektami.sld",
+                    "type": "line",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:17_Beregovie_erozionno_akkumulyativnie_processi",
+                    "name": "17 Beregovie erozionno-akkumulyativnie processi",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/17_Beregovie_erozionno_akkumulyativnie_processi.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:18_Abrazionnie_akkumulyativnie_processi_beregovoj_zoni",
+                    "name": "18 Abrazionnie-akkumulyativnie processi beregovoj zoni",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/18_Abrazionnie_akkumulyativnie_processi_beregovoj_zoni.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:19_Malie_vodotoki",
+                    "name": "19 Malie vodotoki",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19_Malie_vodotoki.sld",
+                    "type": "point",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                }
+            ],
+            "opened": true,
+            "server": "geoserver",
+            "service": null,
+            "style": null,
+            "type": "group",
+            "url": null,
+            "visible": false
+        },
+        {
+            "layers": null,
+            "name": "LI",
+            "nodes": [
+                {
+                    "layers": null,
+                    "name": "Virubki",
+                    "nodes": [
+                        {
+                            "layers": "SEG_2020_Full:Virubki_2020",
+                            "name": "Virubki 2020",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Virubki_2020.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:Virubki_2019",
+                            "name": "Virubki 2019",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Virubki_2019.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:Virubki_2018",
+                            "name": "Virubki 2018",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Virubki_2018.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:Virubki_2017",
+                            "name": "Virubki 2017",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Virubki_2017.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:Virubki_2016",
+                            "name": "Virubki 2016",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Virubki_2016.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:Virubki_2015",
+                            "name": "Virubki 2015",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Virubki_2015.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:Virubki_2014",
+                            "name": "Virubki 2014",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Virubki_2014.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:Virubki_2013",
+                            "name": "Virubki 2013",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Virubki_2013.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        }
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": false
+                },
+                {
+                    "layers": null,
+                    "name": "Podtopleniya",
+                    "nodes": [
+                        {
+                            "layers": "SEG_2020_Full:Podtopleniya_2019",
+                            "name": "Podtopleniya_2019",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Podtopleniya_2019.sld",
+                            "type": "point",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:Podtopleniya_2017",
+                            "name": "Podtopleniya_2017",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Podtopleniya_2017.sld",
+                            "type": "point",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        }
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": false
+                }
+            ],
+            "opened": false,
+            "server": "geoserver",
+            "service": null,
+            "style": null,
+            "type": "group",
+            "url": null,
+            "visible": false
+        },
+        {
+            "layers": "SEG_2020_Full:200_meters_zone",
+            "name": "200-meters zone",
+            "nodes": [
+            ],
+            "opened": true,
+            "server": "geoserver",
+            "service": "wfs",
+            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/200_meters_zone.sld",
+            "type": "polygon",
+            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+            "visible": true
+        },
+        {
+            "layers": "SEG_2020_Full:10_km_zone",
+            "name": "10-km zone",
+            "nodes": [
+            ],
+            "opened": true,
+            "server": "geoserver",
+            "service": "wfs",
+            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/10_km_zone.sld",
+            "type": "polygon",
+            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+            "visible": true
+        },
+        {
+            "layers": "SEG_2020_Full:CheckPoints",
+            "name": "CheckPoints",
+            "nodes": [
+            ],
+            "opened": false,
+            "server": "geoserver",
+            "service": "wfs",
+            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/CheckPoints.sld",
+            "type": "line",
+            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+            "visible": false
+        },
+        {
+            "layers": null,
+            "name": "Report View",
+            "nodes": [
+                {
+                    "layers": "SEG_2020_Full:OPG_29",
+                    "name": "OPG_29",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/OPG_29.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:OPG_401_2020",
+                    "name": "OPG_401_2020",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/OPG_401_2020.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:OPG_302_2020",
+                    "name": "OPG_302_2020",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/OPG_302_2020.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:OGP_7_1",
+                    "name": "OGP_7.1",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/OGP_7_1.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:OPG_39_1",
+                    "name": "OPG_39.1",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/OPG_39_1.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:OPG_2_01",
+                    "name": "OPG_2.01",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/OPG_2_01.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:OPG_2",
+                    "name": "OPG_2",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/OPG_2.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:OPG_1",
+                    "name": "OPG_1",
+                    "nodes": [
+                    ],
+                    "opened": true,
+                    "server": "geoserver",
+                    "service": "wfs",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/OPG_1.sld",
+                    "type": "polygon",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                    "visible": false
+                },
+                {
+                    "layers": null,
+                    "name": "Заказ съемки 2020",
+                    "nodes": [
+                        {
+                            "layers": "SEG_2020_Full:Portovay",
+                            "name": "Portovay",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Portovay.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:Murmanskoe_shosse",
+                            "name": "Мурманское_шоссе",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Murmanskoe_shosse.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:OPG_302",
+                            "name": "ОПГ_302",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/OPG_302.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:OPG_1019",
+                            "name": "ОПГ_1019",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/OPG_1019.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:OPG_2919",
+                            "name": "ОПГ_2919",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wfs",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/OPG_2919.sld",
+                            "type": "polygon",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wfs",
+                            "visible": false
+                        }
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": false
+                }
+            ],
+            "opened": false,
+            "server": "geoserver",
+            "service": null,
+            "style": null,
+            "type": "group",
+            "url": null,
+            "visible": false
+        },
+        {
+            "layers": null,
+            "name": "High resolution rasters",
+            "nodes": [
+                {
+                    "layers": null,
+                    "name": "Komp_stancii",
+                    "nodes": [
+                        {
+                            "layers": "SEG_2020_Full:IMG_SPOT6_P_20170607084544620_SEN_RS_DS_00_000000_R1C1_volhovskaya",
+                            "name": "IMG_SPOT6_P_20170607084544620_SEN_RS-DS-00_000000_R1C1_volhovskaya",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/IMG_SPOT6_P_20170607084544620_SEN_RS_DS_00_000000_R1C1_volhovskaya.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": true
+                        },
+                        {
+                            "layers": "SEG_2020_Full:IMG_SPOT7_P_20170516090507000_SEN_RS_DS_00_000000_R2C1_portovaya",
+                            "name": "IMG_SPOT7_P_20170516090507000_SEN_RS-DS-00_000000_R2C1_portovaya",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/IMG_SPOT7_P_20170516090507000_SEN_RS_DS_00_000000_R2C1_portovaya.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": true
+                        },
+                        {
+                            "layers": "SEG_2020_Full:IMG_SPOT7_P_20170516090439620_SEN_RS_DS_00_000000_R1C1_elizararovskaya",
+                            "name": "IMG_SPOT7_P_20170516090439620_SEN_RS-DS-00_000000_R1C1_elizararovskaya",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/IMG_SPOT7_P_20170516090439620_SEN_RS_DS_00_000000_R1C1_elizararovskaya.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": true
+                        }
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": true
+                },
+                {
+                    "layers": null,
+                    "name": "SPOT_2017",
+                    "nodes": [
+                        {
+                            "layers": "SEG_2020_Full:IMG_SPOT7_P_20170516090507000_SEN_RS_DS_00_000000_R1C2",
+                            "name": "IMG_SPOT7_P_20170516090507000_SEN_RS-DS-00_000000_R1C2",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/IMG_SPOT7_P_20170516090507000_SEN_RS_DS_00_000000_R1C2.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:IMG_SPOT7_P_20170516090414120_SEN_RS_DS_00_000000_R2C2",
+                            "name": "IMG_SPOT7_P_20170516090414120_SEN_RS-DS-00_000000_R2C2",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/IMG_SPOT7_P_20170516090414120_SEN_RS_DS_00_000000_R2C2.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:IMG_SPOT7_P_20170516090414120_SEN_RS_DS_00_000000_R2C1",
+                            "name": "IMG_SPOT7_P_20170516090414120_SEN_RS-DS-00_000000_R2C1",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/IMG_SPOT7_P_20170516090414120_SEN_RS_DS_00_000000_R2C1.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:IMG_SPOT7_P_20170516090349700_SEN_RS_DS_00_000000_R2C1",
+                            "name": "IMG_SPOT7_P_20170516090349700_SEN_RS-DS-00_000000_R2C1",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/IMG_SPOT7_P_20170516090349700_SEN_RS_DS_00_000000_R2C1.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:IMG_SPOT7_P_20170516090507000_SEN_RS_DS_00_000000_R2C1",
+                            "name": "IMG_SPOT7_P_20170516090507000_SEN_RS-DS-00_000000_R2C1",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/IMG_SPOT7_P_20170516090507000_SEN_RS_DS_00_000000_R2C1.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        }
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": true
+                },
+                {
+                    "layers": null,
+                    "name": "SPOT_2016",
+                    "nodes": [
+                        {
+                            "layers": "SEG_2020_Full:IMG_SPOT6_P_20160828091347200_SEN_RS_DS_00_000000_R1C1",
+                            "name": "IMG_SPOT6_P_20160828091347200_SEN_RS-DS-00_000000_R1C1",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/IMG_SPOT6_P_20160828091347200_SEN_RS_DS_00_000000_R1C1.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        }
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": true
+                },
+                {
+                    "layers": null,
+                    "name": "WorldView-2_GeoEye-1",
+                    "nodes": [
+                        {
+                            "layers": "SEG_2020_Full:19JUN07093240_M2AS_011491526010_01_P001",
+                            "name": "19JUN07093240-M2AS-011491526010_01_P001",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19JUN07093240_M2AS_011491526010_01_P001.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": true
+                        },
+                        {
+                            "layers": "SEG_2020_Full:19JUN07093240_P2AS_011491526010_01_P001",
+                            "name": "19JUN07093240-P2AS-011491526010_01_P001",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19JUN07093240_P2AS_011491526010_01_P001.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:19MAY05094720_M2AS_011491526010_01_P002",
+                            "name": "19MAY05094720-M2AS-011491526010_01_P002",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19MAY05094720_M2AS_011491526010_01_P002.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": true
+                        },
+                        {
+                            "layers": "SEG_2020_Full:19MAY05094720_P2AS_011491526010_01_P002",
+                            "name": "19MAY05094720-P2AS-011491526010_01_P002",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19MAY05094720_P2AS_011491526010_01_P002.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:19JUN07093259_M2AS_R1C1_011491693010_01_P001",
+                            "name": "19JUN07093259-M2AS_R1C1-011491693010_01_P001",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19JUN07093259_M2AS_R1C1_011491693010_01_P001.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": true
+                        },
+                        {
+                            "layers": "SEG_2020_Full:19JUN07093259_M2AS_R1C2_011491693010_01_P001",
+                            "name": "19JUN07093259-M2AS_R1C2-011491693010_01_P001",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19JUN07093259_M2AS_R1C2_011491693010_01_P001.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": true
+                        },
+                        {
+                            "layers": "SEG_2020_Full:19JUN07093259_P2AS_R1C1_011491693010_01_P001",
+                            "name": "19JUN07093259-P2AS_R1C1-011491693010_01_P001",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19JUN07093259_P2AS_R1C1_011491693010_01_P001.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:19JUN07093259_P2AS_R1C2_011491693010_01_P001",
+                            "name": "19JUN07093259-P2AS_R1C2-011491693010_01_P001",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19JUN07093259_P2AS_R1C2_011491693010_01_P001.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:19JUL04091504_M2AS_011491526020_01_P001",
+                            "name": "19JUL04091504-M2AS-011491526020_01_P001",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19JUL04091504_M2AS_011491526020_01_P001.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": true
+                        },
+                        {
+                            "layers": "SEG_2020_Full:19JUL04091503_P2AS_011491526020_01_P001",
+                            "name": "19JUL04091503-P2AS-011491526020_01_P001",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19JUL04091503_P2AS_011491526020_01_P001.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:19MAY19093549_M2AS_011491526030_01_P001",
+                            "name": "19MAY19093549-M2AS-011491526030_01_P001",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19MAY19093549_M2AS_011491526030_01_P001.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": true
+                        },
+                        {
+                            "layers": "SEG_2020_Full:19MAY19093549_P2AS_011491526030_01_P001",
+                            "name": "19MAY19093549-P2AS-011491526030_01_P001",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19MAY19093549_P2AS_011491526030_01_P001.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        }
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": true
+                },
+                {
+                    "layers": null,
+                    "name": "«WorldView-2,3»_ «GeoEye-1»_ «Pleiades-1B» 2020",
+                    "nodes": [
+                        {
+                            "layers": null,
+                            "name": "ОПГ_302",
+                            "nodes": [
+                                {
+                                    "layers": "SEG_2020_Full:20SEP03091105_M2AS_013503967010_01_P001",
+                                    "name": "20SEP03091105-M2AS-013503967010_01_P001",
+                                    "nodes": [
+                                    ],
+                                    "opened": false,
+                                    "server": "geoserver",
+                                    "service": "wms",
+                                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/20SEP03091105_M2AS_013503967010_01_P001.sld",
+                                    "type": "raster",
+                                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                                    "visible": true
+                                },
+                                {
+                                    "layers": "SEG_2020_Full:20SEP03091105_P2AS_013503967010_01_P001",
+                                    "name": "20SEP03091105-P2AS-013503967010_01_P001",
+                                    "nodes": [
+                                    ],
+                                    "opened": false,
+                                    "server": "geoserver",
+                                    "service": "wms",
+                                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/20SEP03091105_P2AS_013503967010_01_P001.sld",
+                                    "type": "raster",
+                                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                                    "visible": false
+                                }
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": null,
+                            "style": null,
+                            "type": "group",
+                            "url": null,
+                            "visible": true
+                        },
+                        {
+                            "layers": null,
+                            "name": "ОПГ_2919",
+                            "nodes": [
+                                {
+                                    "layers": "SEG_2020_Full:20AUG14092423_P2AS_013503967020_01_P002",
+                                    "name": "20AUG14092423-P2AS-013503967020_01_P002",
+                                    "nodes": [
+                                    ],
+                                    "opened": true,
+                                    "server": "geoserver",
+                                    "service": "wms",
+                                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/20AUG14092423_P2AS_013503967020_01_P002.sld",
+                                    "type": "raster",
+                                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                                    "visible": false
+                                },
+                                {
+                                    "layers": "SEG_2020_Full:20AUG14092423_M2AS_013503967020_01_P002",
+                                    "name": "20AUG14092423-M2AS-013503967020_01_P002",
+                                    "nodes": [
+                                    ],
+                                    "opened": false,
+                                    "server": "geoserver",
+                                    "service": "wms",
+                                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/20AUG14092423_M2AS_013503967020_01_P002.sld",
+                                    "type": "raster",
+                                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                                    "visible": true
+                                },
+                                {
+                                    "layers": "SEG_2020_Full:19APR18090614_P2AS_013503967020_01_P001",
+                                    "name": "19APR18090614-P2AS-013503967020_01_P001",
+                                    "nodes": [
+                                    ],
+                                    "opened": true,
+                                    "server": "geoserver",
+                                    "service": "wms",
+                                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19APR18090614_P2AS_013503967020_01_P001.sld",
+                                    "type": "raster",
+                                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                                    "visible": false
+                                },
+                                {
+                                    "layers": "SEG_2020_Full:19APR18090614_M2AS_013503967020_01_P001",
+                                    "name": "19APR18090614-M2AS-013503967020_01_P001",
+                                    "nodes": [
+                                    ],
+                                    "opened": false,
+                                    "server": "geoserver",
+                                    "service": "wms",
+                                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/19APR18090614_M2AS_013503967020_01_P001.sld",
+                                    "type": "raster",
+                                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                                    "visible": false
+                                }
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": null,
+                            "style": null,
+                            "type": "group",
+                            "url": null,
+                            "visible": true
+                        }
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": true
+                }
+            ],
+            "opened": true,
+            "server": "geoserver",
+            "service": null,
+            "style": null,
+            "type": "group",
+            "url": null,
+            "visible": true
+        },
+        {
+            "layers": null,
+            "name": "Pipeline Rasters",
+            "nodes": [
+                {
+                    "layers": "SEG_2020_Full:Sentinel_2020",
+                    "name": "Sentinel_2020",
+                    "nodes": [
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": "wms",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Sentinel_2020.sld",
+                    "type": "raster",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:Sentinel_2019",
+                    "name": "Sentinel_2019",
+                    "nodes": [
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": "wms",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Sentinel_2019.sld",
+                    "type": "raster",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:Sentinel_2018",
+                    "name": "Sentinel_2018",
+                    "nodes": [
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": "wms",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Sentinel_2018.sld",
+                    "type": "raster",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                    "visible": false
+                },
+                {
+                    "layers": null,
+                    "name": "RapidEye 2015",
+                    "nodes": [
+                        {
+                            "layers": "SEG_2020_Full:rapydeye2015",
+                            "name": "rapydeye2015",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/rapydeye2015.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        }
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": false
+                },
+                {
+                    "layers": null,
+                    "name": "RapidEye 2014",
+                    "nodes": [
+                        {
+                            "layers": "SEG_2020_Full:rapydeye2014",
+                            "name": "rapydeye2014",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/rapydeye2014.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        }
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": false
+                }
+            ],
+            "opened": true,
+            "server": "geoserver",
+            "service": null,
+            "style": null,
+            "type": "group",
+            "url": null,
+            "visible": true
+        },
+        {
+            "layers": null,
+            "name": "Leningrad Oblast",
+            "nodes": [
+                {
+                    "layers": "SEG_2020_Full:Sentinel_2020__lo2020_",
+                    "name": "Sentinel 2020 (lo2020)",
+                    "nodes": [
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": "wms",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Sentinel_2020__lo2020_.sld",
+                    "type": "raster",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:Sentinel_20191",
+                    "name": "Sentinel_2019",
+                    "nodes": [
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": "wms",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Sentinel_20191.sld",
+                    "type": "raster",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                    "visible": false
+                },
+                {
+                    "layers": "SEG_2020_Full:Sentinel_2017",
+                    "name": "Sentinel 2017",
+                    "nodes": [
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": "wms",
+                    "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/Sentinel_2017.sld",
+                    "type": "raster",
+                    "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                    "visible": false
+                },
+                {
+                    "layers": null,
+                    "name": "Sentinel 2016",
+                    "nodes": [
+                        {
+                            "layers": "SEG_2020_Full:sentinelrgb_med_sub",
+                            "name": "sentinelrgb-med_sub",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/sentinelrgb_med_sub.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:sentinelrgb_med",
+                            "name": "sentinelrgb-med",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/sentinelrgb_med.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        }
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": false
+                },
+                {
+                    "layers": null,
+                    "name": "RapidEye 2012",
+                    "nodes": [
+                        {
+                            "layers": "SEG_2020_Full:merc60",
+                            "name": "merc60",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/merc60.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:latlon60",
+                            "name": "latlon60",
+                            "nodes": [
+                            ],
+                            "opened": false,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/latlon60.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        }
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": false
+                },
+                {
+                    "layers": null,
+                    "name": "ThematicMaps",
+                    "nodes": [
+                        {
+                            "layers": "SEG_2020_Full:p_36_097_098",
+                            "name": "p-36-097_098",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_36_097_098.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:p_36_109",
+                            "name": "p-36-109",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_36_109.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:p_36_121_122",
+                            "name": "p-36-121_122",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_36_121_122.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:p_36_133_134",
+                            "name": "p-36-133_134",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_36_133_134.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:p_36_137_138",
+                            "name": "p-36-137_138",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_36_137_138.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:p_35_117_118",
+                            "name": "p-35-117_118",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_35_117_118.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:p_35_119_120",
+                            "name": "p-35-119_120",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_35_119_120.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:p_35_129_130",
+                            "name": "p-35-129_130",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_35_129_130.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:p_35_131_132",
+                            "name": "p-35-131_132",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_35_131_132.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:p_35_141_142",
+                            "name": "p-35-141_142",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_35_141_142.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:p_35_143_144",
+                            "name": "p-35-143_144",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_35_143_144.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_001",
+                            "name": "o-36-001",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_001.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_002",
+                            "name": "o-36-002",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_002.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_003",
+                            "name": "o-36-003",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_003.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_004",
+                            "name": "o-36-004",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_004.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_013",
+                            "name": "o-36-013",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_013.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_014",
+                            "name": "o-36-014",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_014.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_015",
+                            "name": "o-36-015",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_015.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_001br",
+                            "name": "o-36-001br",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_001br.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_002br",
+                            "name": "o-36-002br",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_002br.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_002br1",
+                            "name": "o-36-002br1",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_002br1.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_003br",
+                            "name": "o-36-003br",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_003br.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_004br",
+                            "name": "o-36-004br",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_004br.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:p_36_133_134br",
+                            "name": "p-36-133_134br",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_36_133_134br.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:p_36_121_122br",
+                            "name": "p-36-121_122br",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/p_36_121_122br.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_005",
+                            "name": "o-36-005",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_005.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        },
+                        {
+                            "layers": "SEG_2020_Full:o_36_005br",
+                            "name": "o-36-005br",
+                            "nodes": [
+                            ],
+                            "opened": true,
+                            "server": "geoserver",
+                            "service": "wms",
+                            "style": "http://192.168.115.1:8080/geoserver/rest/workspaces/SEG_2020_Full/styles/o_36_005br.sld",
+                            "type": "raster",
+                            "url": "http://192.168.115.1:8080/geoserver/SEG_2020_Full/wms",
+                            "visible": false
+                        }
+                    ],
+                    "opened": false,
+                    "server": "geoserver",
+                    "service": null,
+                    "style": null,
+                    "type": "group",
+                    "url": null,
+                    "visible": false
+                }
+            ],
+            "opened": true,
+            "server": "geoserver",
+            "service": null,
+            "style": null,
+            "type": "group",
+            "url": null,
+            "visible": true
+        },
+        {
+            "layers": null,
+            "name": "Подложка",
+            "nodes": [
+            ],
+            "opened": true,
+            "server": "geoserver",
+            "service": null,
+            "style": null,
+            "type": "group",
+            "url": null,
+            "visible": true
+        }
+    ]
+}

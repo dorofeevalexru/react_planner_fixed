@@ -1,0 +1,210 @@
+.layer-tree {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    font-size: 14px;
+    width: 100% !important;
+}
+
+.layer-tree ul {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+    width: 100% !important;
+}
+
+.layer-tree li {
+    padding: 10px 12px;
+    margin: 4px 0;
+    border-radius: 8px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+.layer-tree li.group {
+    font-weight: 600;
+    color: var(--primary);
+    background: linear-gradient(135deg, var(--color5), var(--white));
+    border-color: var(--color4);
+}
+
+.layer-tree li.layer {
+    display: flex;
+    align-items: center;
+    color: var(--text);
+    background: var(--white);
+    border-color: var(--medium-gray);
+}
+
+.layer-tree li:hover {
+    background: linear-gradient(135deg, var(--color4), var(--color5));
+    transform: translateX(2px);
+    border-color: var(--color2);
+}
+
+.layer-tree li.active {
+    background: linear-gradient(135deg, var(--color2), var(--color1));
+    color: var(--white);
+    border-color: var(--color1);
+}
+
+/* Чекбоксы */
+.layer-tree input[type="checkbox"] {
+    margin-right: 12px;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    accent-color: var(--color1);
+}
+
+/* Иконки */
+.layer-tree .group-toggle {
+    margin-right: 10px;
+    cursor: pointer;
+    width: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    transition: transform 0.3s ease;
+}
+
+.layer-tree .group-toggle:hover {
+    transform: scale(1.2);
+}
+
+.layer-tree .layer-type-icon {
+    margin-right: 10px;
+    width: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color1);
+}
+
+/* Иконки для разных типов слоев */
+.layer-tree .layer-type-icon .fa-map-marker-alt { color: #e74c3c; }
+.layer-tree .layer-type-icon .fa-minus { color: #3498db; }
+.layer-tree .layer-type-icon .fa-vector-square { color: #2ecc71; }
+.layer-tree .layer-type-icon .fa-image { color: #9b59b6; }
+.layer-tree .layer-type-icon .fa-layer-group { color: #f39c12; }
+
+/* Кастомный скроллбар */
+#layerTreeContainer::-webkit-scrollbar,
+#scheduleTable::-webkit-scrollbar {
+    width: 8px;
+}
+
+#layerTreeContainer::-webkit-scrollbar-track,
+#scheduleTable::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+    border-radius: 4px;
+    margin: 4px;
+}
+
+#layerTreeContainer::-webkit-scrollbar-thumb,
+#scheduleTable::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 4px;
+}
+
+#layerTreeContainer::-webkit-scrollbar-thumb:hover,
+#scheduleTable::-webkit-scrollbar-thumb:hover {
+    background: var(--color1);
+}
+
+/* Исправление для таблицы */
+#scheduleTable {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+#scheduleTable table {
+    width: 100% !important;
+    table-layout: fixed;
+}
+
+#scheduleTable th,
+#scheduleTable td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#layerTreeContainer,
+#scheduleTable {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100%;
+    padding: 10px;
+    width: 100% !important;
+}
+
+.layer-tree-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.layer-tree-header {
+    padding: 10px 15px;
+    border-bottom: 1px solid var(--content-border);
+    background: var(--color5);
+    flex-shrink: 0;
+}
+
+.layer-tree-header h3 {
+    margin: 0;
+    font-size: 16px;
+    color: var(--text-primary);
+}
+
+.layer-tree {
+    list-style: none;
+    padding: 10px 5px;
+    margin: 0;
+    user-select: none;
+    font-size: 14px;
+    width: 100% !important;
+    flex: 1;
+    overflow-y: auto;
+    max-height: calc(100% - 50px);
+}
+
+/* Кастомный скроллбар для дерева слоев */
+.layer-tree::-webkit-scrollbar {
+    width: 8px;
+}
+
+.layer-tree::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.layer-tree::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 4px;
+}
+
+.layer-tree::-webkit-scrollbar-thumb:hover {
+    background: var(--color1);
+}
+
+
+@media (max-width: 768px) {
+    .ol-zoom {
+        top: 60px !important;
+        right: 5px !important;
+    }
+     .ol-scale-line {
+        top: 100px !important;
+        right: 5px !important;
+    }
+}

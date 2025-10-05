@@ -1,0 +1,110 @@
+.map-info-control {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: auto;
+    display: flex;
+    flex-direction: row;
+    font-family: "Helvetica Neue", "Segoe UI", helvetica, verdana, sans-serif;
+    background: var(--sidebar-bg);
+    border: 2px solid var(--sidebar-border);
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    z-index: 999 ;
+}
+
+.map-info-control:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.map-info-box {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    text-align: center;
+    align-items: center;
+}
+
+.map-info-wrapper {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: var(--white);
+    border-radius: 8px;
+    margin-right: 8px;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.map-info-wrapper a, 
+.map-info-wrapper a:visited, 
+.map-info-wrapper a:hover, 
+.map-info-wrapper a:active {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.map-info-wrapper a:hover {
+    text-decoration: underline;
+    transform: translateY(-1px);
+}
+
+.map-info-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.map-info-value {
+    margin: 0;
+    font-size: 14px;
+}
+
+.map-info-collapsed > div {
+    display: none;
+}
+
+.map-info-control button {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.map-info-control button:hover {
+    background: linear-gradient(135deg, var(--color1), var(--accent));
+    transform: scale(1.1);
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 768px) {
+    .map-info-control {
+        right: 10px;
+        bottom: 10px;
+        padding: 8px;
+    }
+}

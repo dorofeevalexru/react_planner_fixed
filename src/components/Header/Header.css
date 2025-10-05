@@ -1,0 +1,78 @@
+/* Стили для шапки */
+.guap_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    font-weight: bold;
+    background: linear-gradient(to right, var(--primary), var(--secondary) 75%, var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.burger-btn {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.burger-line {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: var(--primary);
+    transition: all 0.3s;
+}
+
+.nav_panel {
+    display: flex;
+    gap: 20px;
+}
+
+.nav_link {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+.nav_link:hover {
+    color: var(--primary);
+}
+
+@media (max-width: 768px) {
+    .burger-btn {
+        display: flex;
+    }
+    
+    .nav_panel {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--white);
+        flex-direction: column;
+        padding: 10px 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .nav_panel.active {
+        display: flex;
+    }
+    
+    .logo {
+        font-size: 1rem;
+    }
+}
